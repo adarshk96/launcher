@@ -14,12 +14,11 @@
         android:hint="Search apps" />
 
     <GridView
-        android:numColumns="auto_fit"
-        android:gravity="center"
-        android:columnWidth="100dp"
-        android:stretchMode="columnWidth"
-        android:layout_width="fill_parent"
-        android:layout_height="630dp"
         android:id="@+id/grid"
-        />
+        android:layout_width="fill_parent"
+        android:layout_height="662dp"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth" />
 </LinearLayout>
